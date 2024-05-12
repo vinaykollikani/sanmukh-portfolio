@@ -1,0 +1,33 @@
+{
+  "name": "sanmukh-design",
+  "version": "1.0.0",
+  "description": "Portfolio Website Sanmukh",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite --host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaykollikani/sanmukh-portfolio.git"
+  },
+  "keywords": [
+    "sanmukh",
+    "design",
+    "graphic"
+  ],
+  "author": "Vinay Kollikani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinaykollikani/sanmukh-portfolio/issues"
+  },
+  "homepage": "https://github.com/vinaykollikani/sanmukh-portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "vite": "^5.2.11"
+  }
+}

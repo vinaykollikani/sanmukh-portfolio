@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sanmukh Portfolio</title>
+		<link rel="stylesheet" href="/src/tailwind.css" />
+		<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+		<!-- Font Family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="bg relative">
+		<!-- Header Section -->
+		<header class="bg w-full sticky top-0 z-20">
+			<nav class="wrapper flex justify-between items-center">
+				<!-- Logo | Sanmukh -->
+				<a href="/index.html">
+					<h1 class="text-6xl font-bold cursor-pointer">Sanmukh</h1>
+				</a>
+
+				<!-- Nav Items -->
+				<div class="nav-items hidden space-x-10 md:flex">
+					<a href="/index.html" class="hover">Home</a>
+					<a href="/src/project.html" class="hover">Projects</a>
+					<a
+						href="/src/about.html"
+						class="underline underline-offset-2"
+						>About</a
+					>
+					<a href="/src/contact.html" class="hover">Contact</a>
+				</div>
+
+				<!-- Nav Menu Button -->
+				<button class="menu nav-menu block md:hidden">
+					<svg viewBox="0 0 32 32">
+						<path
+							class="line line-top-bottom"
+							d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+						></path>
+						<path class="line" d="M7 16 27 16"></path>
+					</svg>
+				</button>
+			</nav>
+			<hr class="xl:mx-6" />
+		</header>
+
+		<!-- Main Section -->
+		<main class="wrapper">
+			<section class="rounded-3xl md:bg-[#282828] md:flex">
+				<!-- Profile Image -->
+				<div
+					class="profile-section md:w-2/5 md:p-12 flex flex-col gap-6"
+				>
+					<div class="profile-image">
+						<img
+							src="/assets/hero-section.webp"
+							alt="sanmukh-profile"
+							class="rounded-2xl"
+						/>
+					</div>
+					<h2 class="text-4xl sm:text-5xl md:text-6xl font-bold">
+						Sanmukh Sai Kollikani
+					</h2>
+					<h4 class="text-2xl md:text-3xl font-bold">
+						GRAPHIC DESIGNER
+					</h4>
+					<hr class="md:hidden" />
+				</div>
+
+				<!-- Profile description -->
+				<div
+					class="profile-desc md:w-3/5 md:p-12 flex flex-col justify-between"
+				>
+					<p class="md:py-12 mt-12 md:mt-0">
+						Hi there!
+						<br /><br />
+
+						I'm Sanmukh, a passionate graphic designer with a knack
+						for turning ideas into visually captivating designs.
+						With a keen eye for detail and a love for creativity, I
+						specialize in crafting engaging visuals that leave a
+						lasting impression.
+						<br /><br />
+
+						Whether it's designing sleek logos, vibrant posters, or
+						eye-catching branding materials, I thrive on bringing
+						concepts to life through art and design.
+						<br /><br />
+
+						With 2 years of experience in the industry, I've honed
+						my skills in Adobe Creative Suite and graphic design
+						principles to deliver top-notch results for clients
+						across various sectors. Let's collaborate and bring your
+						vision to fruition!
+					</p>
+					<div
+						class="tools gap-6 md:gap-2 grid grid-cols-2 md:grid-cols-4 mt-8 md:mt-0"
+					>
+						<div
+							class="tool flex items-center md:p-4 gap-4 bg-[#121212] rounded-2xl"
+						>
+							<img
+								src="/assets/Services Icons/Photoshop.svg"
+								alt="adobe photoshop"
+								class="w-[60px]"
+							/>
+							<p class="text-3xl w-[100px]">Adobe Photoshop</p>
+						</div>
+						<div
+							class="tool flex items-center md:p-4 gap-4 bg-[#121212] rounded-2xl"
+						>
+							<img
+								src="/assets/Services Icons/Illustrator.svg"
+								alt="adobe illustrator"
+								class="w-[60px]"
+							/>
+							<p class="text-3xl w-[100px]">Adobe Illustrator</p>
+						</div>
+						<div
+							class="tool flex items-center md:p-4 gap-4 bg-[#121212] rounded-2xl"
+						>
+							<img
+								src="/assets/Services Icons/Figma.svg"
+								alt="figma"
+								class="w-[60px] rounded-2xl"
+							/>
+							<p class="text-3xl w-[100px]">Figma</p>
+						</div>
+						<div
+							class="tool flex items-center md:p-4 gap-4 bg-[#121212] rounded-2xl"
+						>
+							<img
+								src="/assets/Services Icons/Blender.svg"
+								alt="blender"
+								class="w-[60px]"
+							/>
+							<p class="text-3xl w-[100px]">Blender</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer>
+			<hr class="xl:mx-6" />
+			<div
+				class="footer wrapper flex justify-between items-center my-[20px] flex-col gap-20 md:flex-row"
+			>
+				<!-- Brand Logo -->
+				<a href="/index.html"
+					><h1 class="text-6xl font-bold cursor-pointer hover">
+						Sanmukh
+					</h1></a
+				>
+
+				<!-- Contact Mail -->
+				<div class="contact_mail flex items-center flex-col">
+					<p>Contact</p>
+					<p>
+						<a
+							href="mailto:sanmukhkollikani7@gmail.com"
+							target="_blank"
+							class="hover:underline"
+							>sanmukhkollikani7@gmail.com</a
+						>
+					</p>
+				</div>
+
+				<!-- Social Media -->
+				<div class="social_media flex flex-col items-center gap-3">
+					<p class="font_b1">follow me</p>
+					<div class="social">
+						<a href="#" class="hover">
+							<i
+								class="fa-brands fa-instagram text-5xl mx-2 hover"
+							></i>
+						</a>
+						<a href="#" class="hover">
+							<i
+								class="fa-brands fa-linkedin-in text-5xl mx-2 hover"
+							></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<hr class="xl:mx-6" />
+			<div
+				class="copyright max-w-[144rem] mx-auto flex justify-between px-[26px] py-[12px] flex-col md:flex-row"
+			>
+				<p class="text-[#484848] text-[18px]">
+					Sanmukh &copy; Copyright All Rights Reserved
+				</p>
+				<p class="text-[#383838] text-2xl">
+					Built by <a href="#" class="hover">Vinay Kollikani</a>
+				</p>
+			</div>
+		</footer>
+
+		<section class="mobile-menu w-dvw h-full bg fixed z-10 top-0">
+			<ul class="mt-32 px-10 py-12">
+				<li>
+					<a href="/index.html" class="text-5xl my-4 inline-block">Home</a>
+				</li>
+				<li>
+					<a href="/src/projects.html" class="text-5xl my-4 inline-block">Projects</a>
+				</li>
+				<li>
+					<a href="/src/about.html" class="text-5xl my-4 inline-block">About</a>
+				</li>
+				<li>
+					<a href="/src/contact.html" class="text-5xl my-4 inline-block">Contact</a>
+				</li>
+			</ul>
+		</section>
+		<!-- Script -->
+		<script src="src/script.js"></script>
+		<script
+			src="https://kit.fontawesome.com/9b818b3dac.js"
+			crossorigin="anonymous"
+		></script>
+
+		<script>
+			// Nav Menu Button
+			const navMenu = document.querySelector(".nav-menu");
+			navMenu.addEventListener("click", () => {
+				navMenu.classList.toggle("active");
+			});
+
+			// Mobile Screen Menu
+			const mobileScreenMenu = document.querySelector(".mobile-menu");
+			navMenu.addEventListener("click", () => {
+				mobileScreenMenu.classList.toggle("active");
+			});
+		</script>
+	</body>
+</html>

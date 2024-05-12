@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sanmukh Portfolio</title>
+		<link rel="stylesheet" href="/src/tailwind.css" />
+		<!-- Font Family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="bg relative">
+		<!-- Header Section -->
+		<header class="bg w-full sticky top-0 z-20">
+			<nav class="wrapper flex justify-between items-center">
+				<!-- Logo | Sanmukh -->
+				<a href="/index.html">
+					<h1 class="text-6xl font-bold cursor-pointer">Sanmukh</h1>
+				</a>
+
+				<!-- Nav Items -->
+				<div class="nav-items hidden space-x-10 md:flex">
+					<a href="/index.html" class="hover"
+						>Home</a
+					>
+					<a href="/src/project.html" class="hover">Projects</a>
+					<a href="/src/about.html" class="underline underline-offset-2">About</a>
+					<a href="/src/contact.html" class="hover">Contact</a>
+				</div>
+
+				<!-- Nav Menu Button -->
+				<button class="menu nav-menu block md:hidden">
+					<svg viewBox="0 0 32 32">
+						<path
+							class="line line-top-bottom"
+							d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+						></path>
+						<path class="line" d="M7 16 27 16"></path>
+					</svg>
+				</button>
+			</nav>
+			<hr class="xl:mx-6" />
+		</header>
+
+
+		<!-- Footer -->
+		<footer>
+			<hr class="xl:mx-6" />
+			<div
+				class="footer wrapper flex justify-between items-center my-[20px] flex-col gap-20 md:flex-row"
+			>
+				<!-- Brand Logo -->
+				<a href="/index.html"
+					><h1 class="text-6xl font-bold cursor-pointer hover">
+						Sanmukh
+					</h1></a
+				>
+
+				<!-- Contact Mail -->
+				<div class="contact_mail flex items-center flex-col">
+					<p>Contact</p>
+					<p>
+						<a
+							href="mailto:sanmukhkollikani7@gmail.com"
+							target="_blank"
+							class="hover:underline"
+							>sanmukhkollikani7@gmail.com</a
+						>
+					</p>
+				</div>
+
+				<!-- Social Media -->
+				<div class="social_media flex flex-col items-center gap-3">
+					<p class="font_b1">follow me</p>
+					<div class="social">
+						<a href="#" class="hover">
+							<i
+								class="fa-brands fa-instagram text-5xl mx-2 hover"
+							></i>
+						</a>
+						<a href="#" class="hover">
+							<i
+								class="fa-brands fa-linkedin-in text-5xl mx-2 hover"
+							></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<hr class="xl:mx-6" />
+			<div
+				class="copyright max-w-[144rem] mx-auto flex justify-between px-[26px] py-[12px] flex-col md:flex-row"
+			>
+				<p class="text-[#484848] text-[18px]">
+					Sanmukh &copy; Copyright All Rights Reserved
+				</p>
+				<p class="text-[#383838] text-2xl">
+					Built by <a href="#" class="hover">Vinay Kollikani</a>
+				</p>
+			</div>
+		</footer>
+
+		<section class="mobile-menu w-dvw h-full bg fixed z-10 top-0">
+			<ul class="mt-32 px-10 py-12">
+				<li>
+					<a href="#" class="text-5xl my-4 inline-block">Home</a>
+				</li>
+				<li>
+					<a href="#" class="text-5xl my-4 inline-block">Projects</a>
+				</li>
+				<li>
+					<a href="#" class="text-5xl my-4 inline-block">About</a>
+				</li>
+				<li>
+					<a href="#" class="text-5xl my-4 inline-block">Contact</a>
+				</li>
+			</ul>
+		</section>
+		<!-- Script -->
+		<script src="src/script.js"></script>
+		<script
+			src="https://kit.fontawesome.com/9b818b3dac.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
