@@ -27,12 +27,12 @@
 				<div class="nav-items hidden space-x-10 md:flex">
 					<a href="/index.html" class="hover">Home</a>
 					<a href="/src/project.html" class="hover">Projects</a>
+					<a href="/src/about.html" class="hover">About</a>
 					<a
-						href="/src/about.html"
+						href="/src/contact.html"
 						class="underline underline-offset-2"
-						>About</a
+						>Contact</a
 					>
-					<a href="/src/contact.html" class="hover">Contact</a>
 				</div>
 
 				<!-- Nav Menu Button -->
@@ -50,100 +50,120 @@
 		</header>
 
 		<!-- Main Section -->
-		<main class="wrapper">
-			<section class="rounded-3xl md:bg-[#282828] md:flex">
-				<!-- Profile Image -->
-				<div
-					class="profile-section md:w-1/2 md:p-12 flex flex-col gap-6"
-				>
-					<div class="profile-image">
+		<main class="wrapper flex flex-col-reverse md:flex-row">
+			<!-- Contact Form -->
+			<div
+				class="contact-form left bdr md:w-full py-6 px-8 md:py-12 rounded-2xl bg-[#121212]"
+			>
+				<h2 class="text-6xl mb-10">Contact Me</h2>
+				<form autocomplete="off">
+					<div class="md:flex justify-stretch gap-12">
+						<!-- Enter Name -->
+						<div class="user-box w-full">
+							<input type="text" name="name" id="name" required />
+							<label for="name"
+								>Your Name
+								<span class="text-red-500">*</span></label
+							>
+						</div>
+
+						<!-- Enter Company Name -->
+						<div class="user-box w-full">
+							<input
+								type="text"
+								name="company-name"
+								id="comapny-name"
+								required
+							/>
+							<label for="company-name"
+								>Company Name
+								<span class="text-red-500">*</span></label
+							>
+						</div>
+					</div>
+
+					<!-- Enter Email -->
+					<div class="user-box w-full">
+						<input type="email" name="email" id="email" required />
+						<label for="email"
+							>Your Email
+							<span class="text-red-500">*</span></label
+						>
+					</div>
+
+					<!-- Enter Phone Number -->
+					<div class="user-box w-full">
+						<input type="tel" name="phone" id="phone" required />
+						<label for="phone"
+							>Contact Number
+							<span class="text-red-500">*</span></label
+						>
+					</div>
+
+					<!-- Social / Web Link -->
+					<div class="user-box w-full">
+						<input type="url" name="web" id="web" required />
+						<label for="web">Social / Website Link </label>
+					</div>
+
+					<!-- What's on your mind -->
+					<div class="w-full flex flex-col">
+						<label for="web-link">What's on your mind ! </label>
+						<textarea
+							name=""
+							id=""
+							cols="100"
+							rows="6"
+							class="bg-transparent bdr rounded-xl px-6"
+							placeholder="Describe/Elaborate your project idea here..."
+						></textarea>
+					</div>
+
+					<!-- Submit -->
+					<input
+						type="submit"
+						value="Let's Connect"
+						class="w-full bdr text-4xl p-6 cursor-pointer rounded-xl bg-[#f0f0f0] text-[#121212] font-bold transition-all hover:bg-[#f0f0f0dd]"
+					/>
+				</form>
+			</div>
+
+			<!-- Contact Desc -->
+			<div
+				class="contact-desc right md:w-full login-box py-2 px-4 md:py-12 md:px-16 rounded-2xl"
+			>
+				<!-- Title -->
+				<h2 class="text-5xl lg:text-6xl font-bold md:w-4/5 py-8">
+					Let's create an incredible and relatable brand for your
+					target audience.
+				</h2>
+
+				<p class="md:w-3/4 py-10">
+					I'm excited to collaborate with you!
+					<br />
+					Please share your details below, and I'll get back to you
+					within 1-2 days.
+				</p>
+
+				<div class="contact py-6">
+					<h3 class="text-4xl sm:text-5xl md:text-6xl font-bold">
+						Contact
+					</h3>
+					<div class="flex items-center gap-2">
 						<img
-							src="/assets/hero-section.webp"
-							alt="sanmukh-profile"
-							class="rounded-2xl h-[50rem] mx-auto w-auto"
+							src="/assets/Services Icons/contact-mail.png"
+							alt="mail"
+							class="w-8"
 						/>
-					</div>
-					<h2 class="text-5xl md:text-6xl font-bold">
-						Sanmukh Sai Kollikani
-					</h2>
-					<h4 class="text-3xl font-bold">
-						GRAPHIC DESIGNER
-					</h4>
-					<hr class="md:hidden" />
-				</div>
-
-				<!-- Profile description -->
-				<div
-					class="profile-desc md:w-1/2 md:p-8 flex flex-col justify-between"
-				>
-					<p class="md:py-12 mt-12 md:mt-0">
-						Hi there!
-						<br /><br />
-
-						I'm Sanmukh, a passionate graphic designer with a knack
-						for turning ideas into visually captivating designs.
-						With a keen eye for detail and a love for creativity, I
-						specialize in crafting engaging visuals that leave a
-						lasting impression.
-						<br /><br />
-
-						Whether it's designing sleek logos, vibrant posters, or
-						eye-catching branding materials, I thrive on bringing
-						concepts to life through art and design.
-						<br /><br />
-
-						With 2 years of experience in the industry, I've honed
-						my skills in Adobe Creative Suite and graphic design
-						principles to deliver top-notch results for clients
-						across various sectors. Let's collaborate and bring your
-						vision to fruition!
-					</p>
-					<div
-						class="tools gap-4 gap-y-8 md:gap-2 grid grid-cols-2 md:grid-cols-4 mt-8 md:mt-0"
-					>
-						<div
-							class="tool flex items-center md:p-4 gap-4 bg-[#121212] rounded-2xl"
+						<a
+							href="mailto:sanmukhsai7@gmail.com"
+							class="hover my-4"
 						>
-							<img
-								src="/assets/Services Icons/Photoshop.svg"
-								alt="adobe photoshop"
-								class="w-[60px]"
-							/>
-							<p class="text-2xl w-[100px]">Adobe Photoshop</p>
-						</div>
-						<div
-							class="tool flex items-center md:p-4 gap-4 bg-[#121212] rounded-2xl"
-						>
-							<img
-								src="/assets/Services Icons/Illustrator.svg"
-								alt="adobe illustrator"
-								class="w-[60px]"
-							/>
-							<p class="text-2xl w-[100px]">Adobe Illustrator</p>
-						</div>
-						<div
-							class="tool flex items-center md:p-4 gap-4 bg-[#121212] rounded-2xl"
-						>
-							<img
-								src="/assets/Services Icons/Figma.svg"
-								alt="figma"
-								class="w-[60px] rounded-2xl"
-							/>
-							<p class="text-3xl w-[100px]">Figma</p>
-						</div>
-						<div
-							class="tool flex items-center md:p-4 gap-4 bg-[#121212] rounded-2xl"
-						>
-							<img
-								src="/assets/Services Icons/Blender.svg"
-								alt="blender"
-								class="w-[60px]"
-							/>
-							<p class="text-3xl w-[100px]">Blender</p>
-						</div>
+							sanmukhkollikani7@gmail.com
+						</a>
 					</div>
 				</div>
-			</section>
+			</div>
 		</main>
 
 		<!-- Footer -->
@@ -205,16 +225,28 @@
 		<section class="mobile-menu w-dvw h-full bg fixed z-10 top-0">
 			<ul class="mt-32 px-10 py-12">
 				<li>
-					<a href="/index.html" class="text-5xl my-4 inline-block">Home</a>
+					<a href="/index.html" class="text-5xl my-4 inline-block"
+						>Home</a
+					>
 				</li>
 				<li>
-					<a href="/src/projects.html" class="text-5xl my-4 inline-block">Projects</a>
+					<a
+						href="/src/projects.html"
+						class="text-5xl my-4 inline-block"
+						>Projects</a
+					>
 				</li>
 				<li>
-					<a href="/src/about.html" class="text-5xl my-4 inline-block">About</a>
+					<a href="/src/about.html" class="text-5xl my-4 inline-block"
+						>About</a
+					>
 				</li>
 				<li>
-					<a href="/src/contact.html" class="text-5xl my-4 inline-block">Contact</a>
+					<a
+						href="/src/contact.html"
+						class="text-5xl my-4 inline-block"
+						>Contact</a
+					>
 				</li>
 			</ul>
 		</section>
